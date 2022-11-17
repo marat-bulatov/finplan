@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a056f58e-7b56-42b5-9b45-bb18e3a8c22a">
+  <producedTypes>
+    <selectionType typeId="174a5c53-4d5e-46d0-965c-21a8bfb5754a" valueTypeId="e9df4a73-9723-4daf-913a-21714435b7a1"/>
+    <listType typeId="f36d5207-9fda-4cfc-b585-81a89bbaf5b1" valueTypeId="3e652005-ac6a-4fa4-aafb-6c9b1579a120"/>
+    <managerType typeId="82683b2b-c273-402e-8951-092f45a3f3fb" valueTypeId="95c4c773-69ad-4c95-b9c4-7c0b1d21c2e4"/>
+    <recordSetType typeId="791bfac4-94f0-4108-872e-3800e0ed837b" valueTypeId="f18f5cca-a577-4586-83b0-7e0ac054ac03"/>
+    <recordKeyType typeId="9ede2719-5c03-49f4-a404-b1723239622a" valueTypeId="b2bd03e0-03f3-475a-82c5-e92e314a981e"/>
+    <recordType typeId="d3829411-c731-4b9d-8f4b-787ecaa72fb2" valueTypeId="b458cbca-355f-42f2-ae3a-009244d5f732"/>
+    <recordManagerType typeId="d2ba1e5e-7254-43d6-b13e-a8482bd70ce0" valueTypeId="a2379d0b-3028-4819-8a39-b95a3a71616c"/>
+  </producedTypes>
+  <name>ФискальныеНакопители</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фискальные накопители</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ФискальныеНакопители.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ФискальныеНакопители.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="182600fc-2aa6-4135-b961-a1199da402d6">
+    <name>ЗаводскойНомерЭКЛЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заводской номер ЭКЛЗ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <mask>9999 9999 9999 9999 9999</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="4a1af7af-81a6-4f37-81b2-c7fad9b0b986">
+    <name>ПорядковыйНомерЭКЛЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядковый номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>6</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="61a70f2e-5297-40bc-b1a1-54d597866e68">
+    <name>ДатаОткрытияАрхива</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата открытия архива</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="cb82e62c-94e5-422d-8f53-fea49a9b6acc">
+    <name>ДатаЗакрытияАрхива</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата закрытия архива</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ba68b1b3-ccac-4440-b449-dd87e3c038bf">
+    <name>ВремяРаботыФискальногоНакопителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время работы фискального накопителя</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВремяРаботыФискальногоНакопителя</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f853fc28-3bc0-4e02-86f6-6119ae2f3e1c">
+    <name>СрокДействияНакопителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок действия накопителя</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="be28c6b8-cd70-4405-a310-940dd7012210">
+    <name>КонтрольноКассоваяМашина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрольно кассовая машина</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КонтрольноКассовыеМашины</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="bbfc6b76-123c-4bb7-8871-87ecf5389d43">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0a686d94-15dd-497b-86c4-2f014265ce97">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

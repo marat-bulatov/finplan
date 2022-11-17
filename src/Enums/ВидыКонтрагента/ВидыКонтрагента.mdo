@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac2d6a20-47ab-4dbc-8acd-5bd9f3a329b4">
+  <producedTypes>
+    <refType typeId="5380d7a2-f8de-4d2d-9417-6b74024344ed" valueTypeId="f8d625eb-0826-40ec-a1fd-cf164c2053ec"/>
+    <listType typeId="0a31daf0-7a91-4e78-accb-f630de255b1d" valueTypeId="8f4459a6-84c5-41ed-95c5-96b632e11ed4"/>
+    <managerType typeId="cfb3bd42-56c4-4934-9c4e-e58e0cdd277c" valueTypeId="19a18373-35cd-443b-aa66-c656091a2933"/>
+  </producedTypes>
+  <name>ВидыКонтрагента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды контрагента</value>
+  </synonym>
+  <comment>Является ли организация или контрагент юридическим лицом или физическим.</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="85189c4b-9fd5-4d95-9b6e-d505fb927485">
+    <name>ЮридическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юридическое лицо</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="73ff5b7f-7db5-4e32-8021-ff25a09f9f28">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="67f5420c-b13d-4b44-8073-91e682338bd0">
+    <name>ЮрЛицоНеРезидент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юр. лицо (нерезидент)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="84a45b99-70b5-46d3-8cc8-ca3a50bac0c9">
+    <name>ИндивидуальныйПредприниматель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индивидуальный предприниматель</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

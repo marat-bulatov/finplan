@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3babe999-8638-42c9-b457-390c75f1cac7">
+  <producedTypes>
+    <refType typeId="677fa0bc-de7f-4a72-ac79-55f5d9ea00c8" valueTypeId="4f0c9c91-c0e3-44c8-9f75-c56f32a12a2a"/>
+    <listType typeId="8b18046f-09bd-44af-8c43-c2dcb967fe28" valueTypeId="82d27007-bd88-4868-89a9-4fe9b0781d46"/>
+    <managerType typeId="bd0e6403-3b81-4528-8bef-c86fd5fb4b64" valueTypeId="cb86f7fd-8a9c-4da2-bfb2-1aef414cd1a8"/>
+  </producedTypes>
+  <name>ВидыБанковскихСчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды банковских счетов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="03146618-20e0-4100-9924-e7bb1530a687">
+    <name>Расчетный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчетный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c2b50404-73eb-4cc1-9a55-ffe9b68d36fa">
+    <name>Депозитный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Депозитный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c990bdfd-a27b-4d7a-a826-99d3fc9fe899">
+    <name>Текущий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a39e96e2-f527-4dab-8ea5-92e8de5fef52">
+    <name>Транзитный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транзитный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a677000a-0c94-4eff-85e7-659b3a563261">
+    <name>Специальный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Специальный транзитный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="89c6f1fe-2c61-4885-a63d-1b26021063ab">
+    <name>Накопительный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Накопительный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8513863c-7920-4726-8444-d6df52264535">
+    <name>Брокерский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Брокерский</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

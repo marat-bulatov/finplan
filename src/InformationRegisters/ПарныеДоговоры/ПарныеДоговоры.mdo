@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="716c699c-aae8-4e38-ada4-01115862041b">
+  <producedTypes>
+    <selectionType typeId="17db127b-683c-437b-b213-1bbeec4e6d12" valueTypeId="f61f5415-292b-47be-8ba7-ba28ff8b0c15"/>
+    <listType typeId="0111321d-2579-4c8a-bef2-f6803e0e310c" valueTypeId="1c99bda9-f970-4774-9025-fc0e46e336b5"/>
+    <managerType typeId="8bddb2ad-4d1f-402f-a415-7368045dba05" valueTypeId="e09dca17-de56-4c8a-a2dc-bb51e3ec797c"/>
+    <recordSetType typeId="494efb4c-a9c9-4579-9120-bff61135f14f" valueTypeId="e05d77ae-f88f-4021-a2db-781a4f6472a1"/>
+    <recordKeyType typeId="a9e8f641-80e5-4b5a-bae5-65873b47da34" valueTypeId="8a20de7a-7c69-4200-8d40-1879594f0b94"/>
+    <recordType typeId="416dc3b8-0210-455f-bdfe-9658960fdf18" valueTypeId="78023cdf-7bb2-43d7-afe4-0ddcd422d092"/>
+    <recordManagerType typeId="420fa177-cbfb-451b-ab6f-a4d96455924e" valueTypeId="b2d0cbc2-9a96-4fc5-b151-cf625e8920a8"/>
+  </producedTypes>
+  <name>ПарныеДоговоры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Парные договоры</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="cda1492c-66cb-44f9-b36b-2d419768b1c3">
+    <name>ПарныйДоговор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Парный договор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="7bbe1674-985c-4347-8dfd-4470fbd52465">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

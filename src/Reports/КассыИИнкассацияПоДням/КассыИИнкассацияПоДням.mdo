@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14e878e5-a4ea-43e6-91f0-e8363809d784">
+  <producedTypes>
+    <objectType typeId="bd4de7b5-3eff-4e07-800d-cf1f9cfb5947" valueTypeId="a6ba38cb-cd6e-49cb-b788-373c4a85ed47"/>
+    <managerType typeId="b8962d25-fab5-473d-bd1c-31e99ea4b54a" valueTypeId="43d2f482-430c-44e6-8bae-04bd064e4183"/>
+  </producedTypes>
+  <name>КассыИИнкассацияПоДням</name>
+  <synonym>
+    <key>ru</key>
+    <value>Касса и инкассация по дням</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.КассыИИнкассацияПоДням.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="d5bcb03e-8148-4279-b359-26f3ddf30880">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

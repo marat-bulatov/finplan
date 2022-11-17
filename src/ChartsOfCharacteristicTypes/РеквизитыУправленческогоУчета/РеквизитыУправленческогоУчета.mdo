@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dbea1e7d-4b02-414a-96ae-29bebcd74461">
+  <producedTypes>
+    <objectType typeId="406dcf71-9bc7-433f-a93e-345d088ec935" valueTypeId="328f9d05-6e39-42df-a614-67f205701a28"/>
+    <refType typeId="e105dd16-c02a-4690-8ceb-efe38fa2a836" valueTypeId="7c311f2d-ced4-4ef0-a80d-576f9388007b"/>
+    <selectionType typeId="7dc8b30a-e634-4e51-9dcc-b81666a19681" valueTypeId="b17a0163-b5c4-4fd2-bdeb-54962f5be97c"/>
+    <listType typeId="2550578c-382c-49ec-b4f0-7da634abecb8" valueTypeId="809ada1a-fc29-4096-a5b9-d7a9caa41383"/>
+    <managerType typeId="f73d0570-43d3-428d-8dad-0640367a2561" valueTypeId="7d0f24ad-9e5b-438e-b7a2-50f1e413709f"/>
+    <containerType typeId="b5186c8b-0b33-4753-81e9-ca09c9617c2d" valueTypeId="16adeddd-34fd-442d-8011-9ef6e02582d6"/>
+  </producedTypes>
+  <name>РеквизитыУправленческогоУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реквизиты управленческого учета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.РеквизитыУправленческогоУчета.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.РеквизитыУправленческогоУчета.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>CatalogRef.ЦФУ</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>CatalogRef.Валюты</types>
+    <types>CatalogRef.Брэнды</types>
+    <types>CatalogRef.ЗначенияСубконтоУправленческогоУчета</types>
+    <types>CatalogRef.ФизическиеЛица</types>
+    <types>Boolean</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>Number</types>
+    <types>CatalogRef.БанковскиеСчета</types>
+    <types>CatalogRef.Организации</types>
+    <numberQualifiers>
+      <precision>12</precision>
+      <scale>3</scale>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>255</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <hierarchical>true</hierarchical>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>12</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>100</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="5b9e4f19-f3e6-4e73-8a91-946343ec8099">
+      <name>ТипСправочникБанковскиеСчета</name>
+      <description>Справочник &quot;Банковские счета&quot;</description>
+      <code>000000000007</code>
+      <type>
+        <types>CatalogRef.БанковскиеСчета</types>
+      </type>
+    </items>
+    <items id="d41a7f77-40d1-4b3f-be04-6960467e41e2">
+      <name>ТипСправочникБрэнды</name>
+      <description>Справочник &quot;Брэнды&quot;</description>
+      <code>000000000008</code>
+      <type>
+        <types>CatalogRef.Брэнды</types>
+      </type>
+    </items>
+    <items id="a1c2c1cc-7c91-46e7-ad58-cc0cb4ddefca">
+      <name>ТипСправочникВалюты</name>
+      <description>Справочник &quot;Валюты&quot;</description>
+      <code>000000000009</code>
+      <type>
+        <types>CatalogRef.Валюты</types>
+      </type>
+    </items>
+    <items id="49a57c7b-0cac-4260-9827-00e4b679ae46">
+      <name>ТипСправочникКонтрагенты</name>
+      <description>Справочник &quot;Контрагенты&quot;</description>
+      <code>000000000029</code>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+    </items>
+    <items id="3dbe8af3-5d20-4a61-a81c-83c58343fa71">
+      <name>ТипСправочникЦФУ</name>
+      <description>Справочник &quot;ЦФУ&quot;</description>
+      <code>000000000006</code>
+      <type>
+        <types>CatalogRef.ЦФУ</types>
+      </type>
+    </items>
+    <items id="216596e4-454b-41b2-8b07-aa14a52a194e">
+      <name>ТипСубконтоВидыКомандировочныхРасходов</name>
+      <description>Субконто &quot;Виды командировочных расходов&quot;</description>
+      <code>000000000014</code>
+      <type>
+        <types>CatalogRef.ЗначенияСубконтоУправленческогоУчета</types>
+      </type>
+    </items>
+    <items id="4cb6c6e0-8556-4a7d-b33f-3258c37bb3c9">
+      <name>ТипСубконтоВидыНалогов</name>
+      <description>Субконто &quot;Виды налогов&quot;</description>
+      <code>000000000021</code>
+      <type>
+        <types>CatalogRef.ЗначенияСубконтоУправленческогоУчета</types>
+      </type>
+    </items>
+    <items id="c0b0566a-e8d3-424b-982a-2a5ba8b33aa4">
+      <name>ТипСубконтоВидыПлатежейПоДоставкеХранению</name>
+      <description>Субконто &quot;Виды платежей по доставке хранению&quot;</description>
+      <code>000000000024</code>
+      <type>
+        <types>CatalogRef.ЗначенияСубконтоУправленческогоУчета</types>
+      </type>
+    </items>
+    <items id="facedd3a-1a57-472b-8f62-411bda010863">
+      <name>ТипСубконтоВидыПрочихФинансовыхРасходов</name>
+      <description>Субконто &quot;Виды прочих финансовых расходов&quot;</description>
+      <code>000000000027</code>
+      <type>
+        <types>CatalogRef.ЗначенияСубконтоУправленческогоУчета</types>
+      </type>
+    </items>
+    <items id="5268160d-d7d1-4a60-aab1-dc47573dad56">
+      <name>ТипСубконтоВидыРасходовCOVID</name>
+      <description>Субконто &quot;Виды расходов COVID&quot;</description>
+      <code>000000000032</code>
+      <type>
+        <types>CatalogRef.ЗначенияСубконтоУправленческогоУчета</types>
+      </type>
+    </items>
+    <items id="4e7b1a2f-538d-4be0-bd03-8f0eb0ef43b6">
+      <name>ТипСубконтоВидыРасходовДоходовТКЗ</name>
+      <description>Субконто &quot;Виды расходов доходов ТКЗ&quot;</description>
+      <code>000000000013</code>
+      <type>
+        <types>CatalogRef.ЗначенияСубконтоУправленческогоУчета</types>
+      </type>
+    </items>
+    <items id="5ee8af2b-6ae5-4bde-9164-beb7076aba56">
+      <name>ТипСубконтоВидыРасходовНаРекламуИPR</name>
+      <description>Субконто &quot;Виды расходов на рекламу и PR&quot;</description>
+      <code>000000000018</code>
+      <type>
+        <types>CatalogRef.ЗначенияСубконтоУправленческогоУчета</types>
+      </type>
+    </items>
+    <items id="f257adb1-a7b0-481b-a78b-4f85cae9c17b">
+      <name>ТипСубконтоВидыРасходовТекущийРемонт</name>
+      <description>Субконто &quot;Виды расходов текущий ремонт&quot;</description>
+      <code>000000000023</code>
+      <type>
+        <types>CatalogRef.ЗначенияСубконтоУправленческогоУчета</types>
+      </type>
+    </items>
+    <items id="2b471baf-11ec-4a64-9ed9-5f9fa031e547">
+      <name>ТипСубконтоВидыРасходовУборка</name>
+      <description>Субконто &quot;Виды расходов уборка&quot;</description>
+      <code>000000000020</code>
+      <type>
+        <types>CatalogRef.ЗначенияСубконтоУправленческогоУчета</types>
+      </type>
+    </items>
+    <items id="81c386b6-e2ab-4713-9d61-b93e457f68c3">
+      <name>ТипСубконтоВидыТаможенныхПлатежей</name>
+      <description>Субконто &quot;Виды таможенных платежей&quot;</description>
+      <code>000000000017</code>
+      <type>
+        <types>CatalogRef.ЗначенияСубконтоУправленческогоУчета</types>
+      </type>
+    </items>
+    <items id="ff7a15ef-d403-4c99-9bf3-be097b74aa0d">
+      <name>ТипСубконтоВидыТранспортныхРасходов</name>
+      <description>Субконто &quot;Виды транспортных расходов&quot;</description>
+      <code>000000000026</code>
+      <type>
+        <types>CatalogRef.ЗначенияСубконтоУправленческогоУчета</types>
+      </type>
+    </items>
+    <items id="4e289b9c-d7b1-4b16-a0e7-750a138dbbe5">
+      <name>ТипСубконтоВидыХозРасходов</name>
+      <description>Субконто &quot;Виды хозрасходов&quot;</description>
+      <code>000000000019</code>
+      <type>
+        <types>CatalogRef.ЗначенияСубконтоУправленческогоУчета</types>
+      </type>
+    </items>
+    <items id="44ff2554-764d-4a93-8574-e8c8398e3433">
+      <name>ТипСубконтоКатегорииВзаиморасчетов</name>
+      <description>Субконто &quot;Категории взаиморасчетов&quot;</description>
+      <code>000000000011</code>
+      <type>
+        <types>CatalogRef.ЗначенияСубконтоУправленческогоУчета</types>
+      </type>
+    </items>
+    <items id="57be1076-686e-444d-8bec-3e739152ea81">
+      <name>ТипСубконтоКонтрагенты</name>
+      <description>Субконто &quot;Контрагенты&quot;</description>
+      <code>000000000031</code>
+      <type>
+        <types>CatalogRef.ЗначенияСубконтоУправленческогоУчета</types>
+      </type>
+    </items>
+    <items id="50ee1b21-0949-4e34-90a6-a6f087293d01">
+      <name>ТипСубконтоКредитыИОбязательства</name>
+      <description>Субконто &quot;Кредиты и обязательства&quot;</description>
+      <code>000000000025</code>
+      <type>
+        <types>CatalogRef.ЗначенияСубконтоУправленческогоУчета</types>
+      </type>
+    </items>
+    <items id="9c594a62-3d0a-4a14-ac98-44e4340745cd">
+      <name>ТипСубконтоМатериалы</name>
+      <description>Субконто &quot;Материалы&quot;</description>
+      <code>000000000022</code>
+      <type>
+        <types>CatalogRef.ЗначенияСубконтоУправленческогоУчета</types>
+      </type>
+    </items>
+    <items id="cec311ce-965a-4e2c-ae67-6600891975e9">
+      <name>ТипСубконтоНаправления</name>
+      <description>Субконто &quot;Направления&quot;</description>
+      <code>000000000010</code>
+      <type>
+        <types>CatalogRef.ЗначенияСубконтоУправленческогоУчета</types>
+      </type>
+    </items>
+    <items id="8c091a98-0e6f-439c-9aba-12e455bdc583">
+      <name>ТипСубконтоОС</name>
+      <description>Субконто &quot;Основные средства&quot;</description>
+      <code>000000000001</code>
+      <type>
+        <types>CatalogRef.ЗначенияСубконтоУправленческогоУчета</types>
+      </type>
+    </items>
+    <items id="f94d114a-4ea9-4dff-a987-d83770398b63">
+      <name>ТипСубконтоПериоды</name>
+      <description>Субконто &quot;Периоды&quot;</description>
+      <code>000000000028</code>
+      <type>
+        <types>CatalogRef.ЗначенияСубконтоУправленческогоУчета</types>
+      </type>
+    </items>
+    <items id="13b39ee0-a77b-407d-8509-12ca0f79fd1e">
+      <name>ТипСубконтоСезоны</name>
+      <description>Субконто &quot;Сезоны&quot;</description>
+      <code>000000000015</code>
+      <type>
+        <types>CatalogRef.ЗначенияСубконтоУправленческогоУчета</types>
+      </type>
+    </items>
+    <items id="9c41f371-e51f-4ec1-8dd4-ea9f0ffc2f0c">
+      <name>ТипСубконтоСобытияТКЗ</name>
+      <description>Субконто &quot;СобытияТКЗ&quot;</description>
+      <code>000000000012</code>
+      <type>
+        <types>CatalogRef.ЗначенияСубконтоУправленческогоУчета</types>
+      </type>
+    </items>
+    <items id="20d14e6d-924e-4b75-ab25-a3c1eb540101">
+      <name>ТипСубконтоСчетаЗаРубежом</name>
+      <description>Субконто &quot;Счета за рубежом&quot;</description>
+      <code>000000000016</code>
+      <type>
+        <types>CatalogRef.ЗначенияСубконтоУправленческогоУчета</types>
+      </type>
+    </items>
+    <items id="1ae6de20-b642-4c83-b477-bbe02aa553bf">
+      <name>ТипСубконтоТипКарты</name>
+      <description>Субконто &quot;Тип карты&quot;</description>
+      <code>000000000030</code>
+      <type>
+        <types>CatalogRef.ЗначенияСубконтоУправленческогоУчета</types>
+      </type>
+    </items>
+    <items id="31ff292e-cc7c-44e1-a828-2e6fa2232903">
+      <name>ТипБулево</name>
+      <description>Тип &quot;Булево&quot;</description>
+      <code>000000000004</code>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+    <items id="5bc3d891-f090-420c-96c4-cb396a71cc53">
+      <name>ТипДата</name>
+      <description>Тип &quot;Дата&quot;</description>
+      <code>000000000005</code>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+    </items>
+    <items id="ee1f4e22-c68c-44b9-9f12-69cef2e7a2c0">
+      <name>ТипСтрока</name>
+      <description>Тип &quot;Строка&quot;</description>
+      <code>000000000003</code>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>255</length>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="0fd4c150-e786-4c91-ac10-0057e8014eb1">
+      <name>ТипЧисло</name>
+      <description>Тип &quot;Число&quot;</description>
+      <code>000000000002</code>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ChartOfCharacteristicTypes.РеквизитыУправленческогоУчета.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="8a252a97-3ca1-487f-92f9-451d8265bd0b">
+    <name>НаименованиеПараметра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование параметра</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="179a3e85-ecdb-483f-a00f-ac9bd746b233">
+    <name>ТипСтрокой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип строкой</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a52f7b3f-4479-4014-9f59-bec1141fc7a9">
+    <name>НаименованиеСправочникаВБазе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование справочника в базе</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="a8afd5dd-413f-4436-b083-4ef1fe040c15">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ChartOfCharacteristicTypes>

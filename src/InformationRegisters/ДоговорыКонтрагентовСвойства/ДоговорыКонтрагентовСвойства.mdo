@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8aaa66e2-a22b-4f4e-8449-d1c9977cf5c9">
+  <producedTypes>
+    <selectionType typeId="9bc9ee5a-18e4-43b8-b12b-47699033f3e4" valueTypeId="b0073810-0253-4e6a-a751-7a98165e39e0"/>
+    <listType typeId="6b7b44ea-fdfd-47fd-955e-4201cabcd1da" valueTypeId="9bc44138-9342-41bf-998c-a188385e55c5"/>
+    <managerType typeId="49b1b1a4-f0b3-45d4-ba8e-1412737edad1" valueTypeId="a1b2e35d-56dd-4847-a08e-d06049085b19"/>
+    <recordSetType typeId="c2a824cb-4ddd-4df6-9762-4c0fb4ed05ba" valueTypeId="f2c5887d-5b1f-4778-bf85-5d5a36253150"/>
+    <recordKeyType typeId="cc766131-fbf5-473f-82dc-9c9ecf7ba8da" valueTypeId="b655caef-da83-4966-bd9d-41ceb2a6a0c8"/>
+    <recordType typeId="c5eabb40-f60f-4a51-9e4a-e28701863f66" valueTypeId="a4a2c619-ca3d-49d9-8b7b-61eaac34e3ee"/>
+    <recordManagerType typeId="38704886-b95f-401f-911e-22bd8a9f4ea1" valueTypeId="1f9532c9-814f-4306-ae39-e44c6bbcd078"/>
+  </producedTypes>
+  <name>ДоговорыКонтрагентовСвойства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Договоры контрагентов свойства</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ba70cce0-ecb8-478f-9900-2ec838edba75">
+    <name>КатегорияОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория операции</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КатегорииОпераций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8354c975-0837-48f6-91d2-c906a7a662e6">
+    <name>ДоговорКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор контрагента</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

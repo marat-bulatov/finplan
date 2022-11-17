@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f43b32f5-d78f-495f-aa47-f5cb699c7951">
+  <name>ОтклонениеЗаявок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отклонение заявок</value>
+  </synonym>
+</mdclass:Role>

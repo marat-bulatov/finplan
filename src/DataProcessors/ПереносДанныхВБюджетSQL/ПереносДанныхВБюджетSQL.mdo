@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d444aff6-d1e9-45d8-ae72-b2ccbe227484">
+  <producedTypes>
+    <objectType typeId="2d72cc53-e410-47c8-b83b-18c52b5c2eff" valueTypeId="5a411d5f-2fa2-4336-89b7-d00720b39dcc"/>
+    <managerType typeId="eb9be939-0852-4e04-9dd7-9f12f080ae6d" valueTypeId="df159ff0-042c-484c-807e-db044fda55de"/>
+  </producedTypes>
+  <name>ПереносДанныхВБюджетSQL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перенос данных в &quot;Бюджет SQL&quot;</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПереносДанныхВБюджетSQL.Form.Форма</defaultForm>
+  <forms uuid="f7df4bcf-9026-4c29-a6a4-6c1cbd8c4f8a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="740bc50a-a9b2-444f-a9ab-973cf98fd5dd">
+    <name>ПравилаОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила обмена</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:DataProcessor>

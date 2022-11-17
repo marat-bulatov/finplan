@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e4e775a-abde-4d85-8d83-d8ac88200524">
+  <producedTypes>
+    <selectionType typeId="8c62a43e-8c54-4271-b8a4-22a1eeb5b350" valueTypeId="97b12179-112b-4e2b-87cc-73ccda7fb5de"/>
+    <listType typeId="5ddce071-d870-460f-bc10-b2101b708d38" valueTypeId="4c9b6bda-1efe-4071-be4f-2785a6b6ffb8"/>
+    <managerType typeId="ece374a5-5e46-4347-aa28-5766a4452685" valueTypeId="a2c31f79-aa65-4c09-b5a7-9df59c9f8536"/>
+    <recordSetType typeId="78d34463-b633-4384-8caf-a02e4241ed63" valueTypeId="e3d82a10-57d2-41a3-8f23-513d0828aae5"/>
+    <recordKeyType typeId="88e7d375-9f37-45b9-8fd7-9621b8dcb0a9" valueTypeId="3bd3be8c-2266-4827-b91e-08267eb56fea"/>
+    <recordType typeId="e65eef2f-e635-4618-b1d3-75f1fcbbe774" valueTypeId="d968255b-85b3-4f68-b19e-dc8d3fff2ae1"/>
+    <recordManagerType typeId="67663e87-f2f4-4926-a5e3-18045fd64347" valueTypeId="71da7f10-cc63-4858-8053-7c45113706a1"/>
+  </producedTypes>
+  <name>СтрокиЗаполненияВыписокКомиссия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Строки заполнения выписок комиссия</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dimensions uuid="80770b5d-8e16-406d-a6a9-8b2089547eed">
+    <name>СтрокаКомиссии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка комиссии</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

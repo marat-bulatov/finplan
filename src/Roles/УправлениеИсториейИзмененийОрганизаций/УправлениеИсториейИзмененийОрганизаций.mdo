@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5bb1cbb8-73cb-4042-8e6c-7a10da8bb705">
+  <name>УправлениеИсториейИзмененийОрганизаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление историей изменений организаций</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba6b17fc-8e7f-40e8-a17e-d9ef80fc4f75">
+  <producedTypes>
+    <objectType typeId="538f1bb8-9734-4959-97ba-21bd728285f4" valueTypeId="8b2997a2-3168-485f-8852-c8ee7b799514"/>
+    <managerType typeId="24698b3c-9bea-4748-9185-bc1ffcea251e" valueTypeId="839a55ed-2f30-42e8-ba80-4490e4585ec2"/>
+  </producedTypes>
+  <name>ДвиженияПоРасчетнымСчетам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движения по расчетным счетам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ДвиженияПоРасчетнымСчетам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="02796254-08e6-40a5-a887-c65aba1ddac7">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

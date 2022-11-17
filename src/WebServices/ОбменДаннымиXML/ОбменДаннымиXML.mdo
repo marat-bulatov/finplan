@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="285f2660-7f19-4af9-a06c-5c9fdd753a4a">
+  <name>ОбменДаннымиXML</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен данными XML</value>
+  </synonym>
+  <namespace>http://www.mercury.org</namespace>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.1/data/core</value>
+  </xdtoPackages>
+  <descriptorFileName>xml-exchange.1cws</descriptorFileName>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="dac9d4b0-582c-4de0-9431-0eac646b42ac">
+    <name>ПринятьДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принять данные</value>
+    </synonym>
+    <comment>возвращает количество успешно загруженных обьектов</comment>
+    <xdtoReturningValueType>
+      <name>integer</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>ПринятьДанные</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="c96059f6-1c4f-4ee5-ae5a-45294595cd61">
+      <name>Данные</name>
+      <synonym>
+        <key>ru</key>
+        <value>Данные</value>
+      </synonym>
+      <comment>Текст XML помещенный в ХранилищеЗначения</comment>
+      <xdtoValueType>
+        <name>ValueStorage</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="1bce369f-9c73-43b6-9e46-99d7d4899546">
+      <name>ТекстОшибки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текст ошибки</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <transferDirection>InOut</transferDirection>
+    </parameters>
+  </operations>
+  <operations uuid="aa79db04-475a-4662-a82f-d6ed5b698a55">
+    <name>ОтдатьДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отдать данные</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>ValueStorage</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>ОтдатьДанные</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="77c09aa3-1f87-4390-a145-3b20ebc4cdbb">
+      <name>ПравилаОбмена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Правила обмена</value>
+      </synonym>
+      <xdtoValueType>
+        <name>ValueStorage</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="8f0285bd-b0b7-4e08-87dc-d3034800df83">
+      <name>ПравилаВыгрузки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Правила выгрузки</value>
+      </synonym>
+      <xdtoValueType>
+        <name>Array</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+    <parameters uuid="7e71b8f0-2c1e-4742-8bb0-7046a6a2997b">
+      <name>ЗначенияПараметров</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значения параметров</value>
+      </synonym>
+      <xdtoValueType>
+        <name>Structure</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+  </operations>
+</mdclass:WebService>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="31ea346a-7233-4e53-9006-bfcd924260b8">
+  <producedTypes>
+    <refType typeId="5fa05f76-61ff-4805-bfc7-3e8b3a78d3e3" valueTypeId="236de894-82eb-420a-ade2-5be3faabe027"/>
+    <listType typeId="9e4991fd-aaf9-45a5-82c5-4987f9cd46bd" valueTypeId="2b32ec5b-026a-4ecb-b844-3c6b4c143665"/>
+    <managerType typeId="53668537-3a9e-4a89-b62a-0b7b2f0cef28" valueTypeId="35381f35-1440-4fc6-8d38-dc873c5e44a3"/>
+  </producedTypes>
+  <name>ВидыОрганизаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды организаций</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="60f9b965-d71f-467b-a153-b8fc4d7477f6">
+    <name>Магазин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Магазин</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a368f612-3984-4b70-b949-f5aadcee44f8">
+    <name>Оптовик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оптовик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d45a4565-04ff-4403-b204-2ac440a4724c">
+    <name>Прочая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3173dddd-4123-4ddc-ac5f-7a852bab79a5">
+    <name>Импортер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Импортер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a6224c1a-a62b-46b1-8bbe-a01abdd5e4a1">
+    <name>Поставщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставщик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5eef8d04-739a-4938-b954-630b22025cfb">
+    <name>Банк</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банк</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="07457b22-c600-4316-9eea-63870777478d">
+    <name>Внешняя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешняя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="afdad4e1-3fd6-4e43-9b08-3736be726dcf">
+    <name>Покупатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Покупатель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5de1133b-352b-4207-8b63-36001b1e9153">
+    <name>Оптовик_Магазин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оптовик магазин</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

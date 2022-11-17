@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29d3596c-bac2-4fd7-882a-84f254e2c735">
+  <name>УправленческийУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управленческий учет</value>
+  </synonym>
+  <namespace>http://www.mercury.org</namespace>
+  <xdtoPackages xsi:type="core:ReferenceValue">
+    <value>XDTOPackage.УправленческийУчет</value>
+  </xdtoPackages>
+  <descriptorFileName>uu.1cws</descriptorFileName>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="ee813be4-46da-42c6-9dbc-e4e73d5a5b2e">
+    <name>Get</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>Документы</name>
+      <nsUri>http://www.mercury.org</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>Get</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="7ec2d2a9-6187-4ea7-8b79-dbdf8ea72466">
+      <name>FromDate</name>
+      <synonym>
+        <key>ru</key>
+        <value>From date</value>
+      </synonym>
+      <xdtoValueType>
+        <name>date</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="db2274d7-a35c-4c61-ad4d-291d744750a3">
+      <name>ToDate</name>
+      <synonym>
+        <key>ru</key>
+        <value>To date</value>
+      </synonym>
+      <xdtoValueType>
+        <name>date</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="71ed1fbc-97b3-4e3b-ab6e-6d95b2a129b4">
+      <name>SubdivisionName</name>
+      <synonym>
+        <key>ru</key>
+        <value>Subdivision name</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+  </operations>
+</mdclass:WebService>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5458fb2d-dae5-43da-a888-7715aa67fafd">
+  <name>Справочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Справочники</picture>
+  </picture>
+  <content>Catalog.Организации</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Catalog.БанковскиеСчета</content>
+  <content>Catalog.ЦФУ</content>
+  <content>Catalog.Подразделения</content>
+  <content>Catalog.ТипыДокументов</content>
+  <content>Catalog.ДокументыОрганизаций</content>
+  <content>Catalog.ЗначенияСубконтоУправленческогоУчета</content>
+  <content>ChartOfCharacteristicTypes.РеквизитыУправленческогоУчета</content>
+  <content>Catalog.Брэнды</content>
+  <content>AccumulationRegister.ОплатаЗаявок</content>
+  <content>Catalog.ГосударственныеОрганы</content>
+  <content>Constant.ВалютаРегламентированногоУчета</content>
+  <content>Catalog.КатегорииОпераций</content>
+  <content>Catalog.ЗаявкаПрисоединенныеФайлы</content>
+  <content>Catalog.Должности</content>
+  <content>Catalog.ТипыДоговоров</content>
+  <content>Catalog.КлассификаторБанков</content>
+  <content>Catalog.Валюты</content>
+  <content>CommonCommand.ДополнительныеОтчетыСправочники</content>
+  <content>Catalog.СтатьиДДС</content>
+  <content>InformationRegister.ДоговорыКонтрагентовСвойства</content>
+  <content>Enum.РежимыНалогообложения</content>
+  <content>AccumulationRegister.ПланируемаяОплатаЗаявок</content>
+  <content>InformationRegister.ИнформацияПоИНН</content>
+  <content>DataProcessor.ПроверкаОрганизацийПоИНН</content>
+  <content>Catalog.КонтрагентыПрисоединенныеФайлы</content>
+  <content>Catalog.ДанныеАвтозаполненияПлатежей</content>
+  <content>InformationRegister.ПривязкиДоговоровЦФУ</content>
+  <content>Catalog.НаправленияОрганизаций</content>
+  <content>InformationRegister.НастройкиИмпортаВыписок</content>
+  <content>Enum.СостоянияСтрокДокументов</content>
+</mdclass:Subsystem>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c584975f-de90-4818-ac7e-128d9c38ec91">
+  <name>Операции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операции</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ОперацииПодсистема</picture>
+  </picture>
+  <content>DataProcessor.ВыгрузкаВУправленческийУчет</content>
+  <content>DataProcessor.ЗагрузкаЗаявок</content>
+  <content>DataProcessor.КорректировкаДвижений</content>
+  <content>9cc7266d-aa81-43eb-90f8-8527ed85b5b4</content>
+  <content>055bec2c-c969-4136-b624-be2e002ebdd2</content>
+  <content>db3626c5-6202-4073-afe5-76bce7f65433</content>
+  <content>DataProcessor.ПереносДанныхВБюджетSQL</content>
+</mdclass:Subsystem>

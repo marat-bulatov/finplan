@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92658c2f-5717-4c88-8362-a1e51909488d">
+  <producedTypes>
+    <selectionType typeId="bfe008fc-f783-4b06-8059-256377361c28" valueTypeId="84595fea-53f5-4803-90e8-13bac59a7576"/>
+    <listType typeId="957cd8bb-f469-41d3-84e7-a21b5d6ac1e6" valueTypeId="098b26dc-0c57-4815-b78a-f19357612ba7"/>
+    <managerType typeId="74170527-59b1-4ab5-97dd-90f770c44d9d" valueTypeId="b9d912ae-84b3-48f1-a669-63691db075f9"/>
+    <recordSetType typeId="119b0dba-8152-478b-b941-c31658a3af86" valueTypeId="2cc507a4-69af-4829-ae32-5246a7bd25c2"/>
+    <recordKeyType typeId="f5253d6d-47fa-49db-9a6d-c0b96ccdc5c7" valueTypeId="1f8f3f1b-c99e-4a32-ab50-ef6c84f1ec6e"/>
+    <recordType typeId="01e50bf5-4539-46ed-b7c1-2e7d0684e505" valueTypeId="e88932f0-8886-4746-b9a0-4878602fe134"/>
+  </producedTypes>
+  <name>ПланируемыеДвижения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планируемые движения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="a08a97ab-4300-47ee-abd3-77f66c7720c7">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="a14f6317-2db1-4ffe-b640-f14b23dd29ba">
+    <name>ВалютнаяСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валютная сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="5a120c48-1ab8-44f3-85a2-f5497433bb69">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="86db69ee-48f9-44e8-b517-654ae58c2e3b">
+    <name>СчетОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет организации</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БанковскиеСчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>AccumulationRegister.ПланируемыеДвижения.Dimension.Организация</field>
+    </choiceParameterLinks>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="8284dca7-6e97-496d-a5ed-c820e791f6b9">
+    <name>ПланируемаяОплата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Планируемая оплата</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Операция</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="05d3136d-6a2c-4b4f-9e8f-ccce12596700">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

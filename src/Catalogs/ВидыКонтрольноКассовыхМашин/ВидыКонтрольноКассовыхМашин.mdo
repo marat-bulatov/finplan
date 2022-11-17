@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ea58922-dd00-4f07-aaf3-480b5abf236f">
+  <producedTypes>
+    <objectType typeId="40f03dc3-76b6-4926-a851-9bdb6a731b04" valueTypeId="d9d4d61b-a7c3-4469-8741-6cd6c24906ee"/>
+    <refType typeId="f037854f-66fc-420e-8a3b-088cc20ce74a" valueTypeId="a7a604ff-af7b-445b-8c1b-906efaf71da2"/>
+    <selectionType typeId="ad493960-8882-4749-ac37-a97fab979fda" valueTypeId="ae7177e7-6506-43bb-a125-07ffb026149d"/>
+    <listType typeId="5192778e-16f7-427a-9298-46d3fe99a80f" valueTypeId="4ffd1023-80c2-453d-8105-ba1a9fc6a357"/>
+    <managerType typeId="cbf1b4f5-be4c-4727-a9c3-e185842e1170" valueTypeId="717b3c57-51fc-4a0c-9e6e-98580757d422"/>
+  </producedTypes>
+  <name>ВидыКонтрольноКассовыхМашин</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды контрольно-кассовых машин</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыКонтрольноКассовыхМашин.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыКонтрольноКассовыхМашин.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вид контрольно-кассовой машины</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

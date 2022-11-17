@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea55362d-a6eb-4c97-9475-bbe25822e737">
+  <producedTypes>
+    <selectionType typeId="0cf55064-7714-4b9f-bf4d-ed5a1c909318" valueTypeId="c9445983-6516-466b-9801-4a71ef0f763e"/>
+    <listType typeId="4e186509-ea81-470c-92ce-11c90c89c214" valueTypeId="ae283acd-1a1b-4a59-9a2e-3993a0e6fc41"/>
+    <managerType typeId="97ed65bf-57c8-49cf-b544-6a8770b53018" valueTypeId="66b6ce2c-c9b1-48f2-9bee-d5a89af26332"/>
+    <recordSetType typeId="4912fa35-9dde-471e-b40d-7f765f917f85" valueTypeId="d081595f-cea5-4631-b3af-9f7d68fc0d7c"/>
+    <recordKeyType typeId="9b69b5fd-1f83-4aae-bdb8-3f4d5ea6e6bb" valueTypeId="8046fb0a-c39b-41f3-9cca-96a6491b5411"/>
+    <recordType typeId="8f06d1e3-5cbf-4eb3-91a1-841f522d7ab7" valueTypeId="9de8e004-62a3-456b-8c04-3778fc3ac36a"/>
+    <recordManagerType typeId="dbaefb3b-653d-4e8c-bab0-684df73607be" valueTypeId="042b0f29-084c-418b-908c-3f4cb81fe414"/>
+  </producedTypes>
+  <name>СостоянияСтрокДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния строк документов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ce4f236d-3944-43b9-b87a-ecdf598c1f43">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СостоянияСтрокДокументов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.СостоянияСтрокДокументов.EnumValue.НеОплачено</value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="f4885bdc-925e-4ed0-bd0d-68bee646420c">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДокументыСостоянияСтрок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="937019d0-fbd8-43ee-acb5-8ba3237c4cb5">
+    <name>GUIDСтроки</name>
+    <synonym>
+      <key>ru</key>
+      <value>GUID строки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value>                                    </value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

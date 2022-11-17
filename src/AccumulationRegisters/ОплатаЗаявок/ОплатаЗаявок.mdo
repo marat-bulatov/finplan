@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b35268b-8ebb-40e7-b219-9b7d3b0d9d4a">
+  <producedTypes>
+    <selectionType typeId="d2c4341d-c18e-4060-bd06-5a7d5238fd29" valueTypeId="20154a64-7439-4a2f-bf80-d6d647b89f81"/>
+    <listType typeId="798e44e0-ec00-4abd-b29c-acdf2ac1c357" valueTypeId="c7f05110-2a19-42e0-8f2b-897f46b73ef3"/>
+    <managerType typeId="fce7b0db-56e5-48db-97b3-54bb6a399489" valueTypeId="ed6caf57-499d-44c7-81db-d78a8c722c65"/>
+    <recordSetType typeId="3e06798b-aab0-49bd-b21a-26efd9a04c03" valueTypeId="a808046e-7d22-422c-be3c-70033b6927f8"/>
+    <recordKeyType typeId="a1c7b253-459d-4fe7-b71a-edc572346b10" valueTypeId="5157e4dc-ffd6-4fed-b213-0df8ba06584d"/>
+    <recordType typeId="9c729c7e-bcea-40b3-a472-e73fc1c56822" valueTypeId="76c879f3-c1cd-4c59-82f2-5e72f568ca41"/>
+  </producedTypes>
+  <name>ОплатаЗаявок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оплата заявок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="8f39b1ab-156c-4d42-ae63-5ea0e0fd956f">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="5230eb50-6382-4329-92b2-47210b7b2866">
+    <name>Заявка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="4a260a5d-537c-4d4c-b82d-79ac5228cf12">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

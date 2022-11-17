@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c3f72ce-35ca-42a9-b485-66e0e16199c5">
+  <producedTypes>
+    <objectType typeId="dfa4dc0d-3703-4df1-ab6e-fdd8966776c0" valueTypeId="2deaca04-bf86-4d0c-a7d8-0f97a78bbb8a"/>
+    <refType typeId="c0fe15c4-1e47-44cc-b40a-b749394d7015" valueTypeId="fe38a807-5c1e-403a-bad6-477151340e77"/>
+    <selectionType typeId="a32d3f9b-f37e-42d0-893c-2f4951934ed8" valueTypeId="a822b90b-b57f-4b07-aa22-6a8033e62c6d"/>
+    <listType typeId="af853811-c410-4b66-9f5c-de5b00aa8316" valueTypeId="f429a724-cc39-4f4f-ac69-9adfda3ed25b"/>
+    <managerType typeId="f7962e14-a424-4c5b-8c0a-fb75486d51ed" valueTypeId="63ce7642-968a-46d2-ac2b-7f9842b4adc5"/>
+  </producedTypes>
+  <name>ОператорыФискальныхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операторы фискальных данных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ОператорыФискальныхДанных.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ОператорыФискальныхДанных.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

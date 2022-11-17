@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36bdf446-a64e-4054-af6c-5abe93eb7d95">
+  <name>БанковскиеСчетаВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Банковские счета вызов сервера</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

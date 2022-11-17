@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="876ddd1c-f601-4c65-9ba8-246467dfbd13">
+  <producedTypes>
+    <refType typeId="13551a00-98e7-4393-9d68-c112e410d462" valueTypeId="e16a941b-865f-487a-a9ca-3e59256ff706"/>
+    <listType typeId="74e88f29-dcb7-4d28-a9f1-f1f989e7d8fd" valueTypeId="99d24738-37e6-4a5a-ba99-b5ec548f89cd"/>
+    <managerType typeId="50a6328c-6d76-44a0-b144-c83862121019" valueTypeId="54f359bd-d4df-411a-b4f1-f4cb091e193b"/>
+  </producedTypes>
+  <name>КатегорииДвиженияДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории движения денежных средств</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d6ff02f3-b4f9-48da-91bc-cbdcbf398118">
+    <name>Списание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="af168b08-5e07-46fd-9b2e-06b4d9a69845">
+    <name>Поступление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

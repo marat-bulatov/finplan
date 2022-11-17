@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0debfa63-d6ab-4ab6-9e7b-d89abdfc11cd">
+  <producedTypes>
+    <refType typeId="2b4d9290-1ec1-495a-8a01-aec4ad382a33" valueTypeId="61cf3468-5263-48ba-a0ff-44685d575171"/>
+    <listType typeId="503b14b9-49b4-440c-8504-6c8686cc804a" valueTypeId="0017d11d-b064-4c03-a4c8-da3ebc1fe881"/>
+    <managerType typeId="a2f4c48f-ef51-40bf-9863-374d096654dd" valueTypeId="e3e54a0f-679f-4be5-bdfb-0545cf85b538"/>
+  </producedTypes>
+  <name>ВидыГосударственныхОрганов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды государственных органов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c5e8d300-6dd1-4b4a-beca-2127d2630b62">
+    <name>НалоговыйОрган</name>
+    <synonym>
+      <key>ru</key>
+      <value>Налоговый орган</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="14444e32-4079-49c3-b21d-c865738ae274">
+    <name>ОрганФСС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Орган ФСС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="73d4f640-617f-4fc7-88c2-000b0bd84f5f">
+    <name>ОрганПФР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Орган ПФР</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

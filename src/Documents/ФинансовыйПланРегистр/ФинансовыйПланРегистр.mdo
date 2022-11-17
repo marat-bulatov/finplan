@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6daa5c9f-9f66-4973-9ea1-c5f41a357bca">
+  <producedTypes>
+    <objectType typeId="4d283364-b12e-4285-94c0-5809e7fc2d4d" valueTypeId="6df9ec05-48c8-4cd3-8b4d-f3f00391fb4d"/>
+    <refType typeId="9779ef28-7702-4614-ac92-ae95e7ae2deb" valueTypeId="96388963-6dfb-4916-bbca-86a63591899b"/>
+    <selectionType typeId="a90fb475-dc0a-48f9-96e8-20a0ac75df40" valueTypeId="aa857338-5115-4616-a6b1-cbb32da6c0a3"/>
+    <listType typeId="141360cd-8825-43fc-8229-95a2fbbf7e4b" valueTypeId="16860720-7740-4289-b81e-e3f4d9e1f283"/>
+    <managerType typeId="2bb660bd-d028-463b-b53a-aa94e1ed54ff" valueTypeId="4e79a336-6f8a-46ad-a69c-2ef5a97de3ac"/>
+  </producedTypes>
+  <name>ФинансовыйПланРегистр</name>
+  <synonym>
+    <key>ru</key>
+    <value>Финансовый план регистр</value>
+  </synonym>
+  <inputByString>Document.ФинансовыйПланРегистр.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ФинансовыйПланРегистр.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="8ca6d800-2ae9-426b-b55d-58df7f665ff6">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e8ec6975-af5e-41e8-aa52-9dde78084b11">
+    <name>РучнаяКорректировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ручная корректировка</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2b630260-6e68-4aab-bd68-bab57d20f1e9">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="9de6ace2-2df9-4643-acbc-422f1927d400">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

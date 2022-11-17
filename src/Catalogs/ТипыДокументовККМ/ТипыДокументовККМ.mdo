@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7f4d244-68dc-47e0-a100-0fba6de094cf">
+  <producedTypes>
+    <objectType typeId="5f4f4862-a40c-4395-82c3-b43b47e5ff01" valueTypeId="21458f7e-7e1a-44d5-9b1f-652bf4287022"/>
+    <refType typeId="d98f2f4e-27ad-45ef-95be-cdd28f7af16a" valueTypeId="92514315-18eb-4622-ba3b-f261b4e9ce8b"/>
+    <selectionType typeId="bebf2e75-cbd1-4a2d-b4bf-8d80c5e82ce6" valueTypeId="54105667-fa17-4f16-ba4e-efbd9cb79701"/>
+    <listType typeId="97e96f59-6709-40ba-9fa1-c7f01647bba3" valueTypeId="0abbeb83-c523-4264-8deb-a96627e042e2"/>
+    <managerType typeId="0d997543-ac38-4808-9c41-38c26757c23c" valueTypeId="13a2fda6-883e-4c27-ae5b-337028505edc"/>
+  </producedTypes>
+  <name>ТипыДокументовККМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы документов ККМ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипыДокументовККМ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТипыДокументовККМ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

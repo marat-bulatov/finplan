@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="176b3cf1-2e05-4285-8a6d-d3f670fad085">
+  <name>РедактированиеБанковскихСчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактирование банковских счетов</value>
+  </synonym>
+</mdclass:Role>

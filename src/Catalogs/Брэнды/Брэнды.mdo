@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aee89c10-58e9-4a6b-b6a8-9d9f19112089">
+  <producedTypes>
+    <objectType typeId="8891d75a-7cc3-4aeb-91c8-fd29909bb75d" valueTypeId="d7080484-be35-47de-81ca-9e100c9d16aa"/>
+    <refType typeId="42dabacd-9199-47d6-b027-dfcef776b350" valueTypeId="641d55f9-45d3-4b43-ada2-fe21a75cbc55"/>
+    <selectionType typeId="21b71f68-1c44-4a69-acfb-2e239fc8d238" valueTypeId="270e4286-54fc-4b9e-a0e0-c9c37966410f"/>
+    <listType typeId="5a3f5936-38fa-4a78-9880-d30c90dbd11b" valueTypeId="7c0b8f9e-c760-405d-97e2-176f1ce6e759"/>
+    <managerType typeId="dce91df1-57b5-485f-8a30-a0ddb17497b3" valueTypeId="974e990c-81b5-4467-9a33-00d1f6ad1b68"/>
+  </producedTypes>
+  <name>Брэнды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Брэнды</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Брэнды.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Брэнды.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>12</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

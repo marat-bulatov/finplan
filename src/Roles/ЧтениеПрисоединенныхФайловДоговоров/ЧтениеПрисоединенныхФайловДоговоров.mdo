@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ac09384-a3da-411c-880f-4d211b04236c">
+  <name>ЧтениеПрисоединенныхФайловДоговоров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение присоединенных файлов договоров</value>
+  </synonym>
+</mdclass:Role>

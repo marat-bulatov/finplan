@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f63d41e-ac97-4f3c-81e9-7e427483fb15">
+  <name>АвтонумерацияДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автонумерация документов</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.Встреча</types>
+  </source>
+  <event>OnSetNewNumber</event>
+  <handler>CommonModule.АвтонумерацияДокументов.АвтонумерацияДокументовПриУстановкеНовогоНомера</handler>
+</mdclass:EventSubscription>

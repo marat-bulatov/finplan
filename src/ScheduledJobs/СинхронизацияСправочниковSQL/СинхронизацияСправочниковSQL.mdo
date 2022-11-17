@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49aff834-23ab-4397-a343-5a26df3d5a1c">
+  <name>СинхронизацияСправочниковSQL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация справочников SQL</value>
+  </synonym>
+  <methodName>CommonModule._ЗапускРегламентныхЗаданий.АвтоматическаяЗагрузкаЦФУ</methodName>
+  <description>Синхронизация справочников SQL</description>
+  <key>1c2ff193-2727-4047-af7f-83ba31a5f0a1</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

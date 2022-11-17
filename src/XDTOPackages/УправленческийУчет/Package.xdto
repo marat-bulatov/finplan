@@ -1,0 +1,54 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.mercury.org">
+	<objectType name="Документы">
+		<property name="Код" type="xs:string"/>
+		<property name="Имя" type="xs:string"/>
+		<property xmlns:d3p1="http://www.mercury.org" name="Данные" type="d3p1:Данные" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="Данные">
+		<property name="ДатаОперации" type="xs:date"/>
+		<property name="НаименованиеОрганизации" type="xs:string"/>
+		<property name="ИНН" type="xs:string"/>
+		<property name="КПП" type="xs:string" nillable="true"/>
+		<property name="БИКБанка" type="xs:string"/>
+		<property name="НомерСчета" type="xs:string"/>
+		<property name="КодКатегорииОперации" type="xs:string"/>
+		<property xmlns:d3p1="http://www.mercury.org" name="Выписки" type="d3p1:Выписки" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="Выписки">
+		<property name="КодКатегорииОперации" type="xs:string"/>
+		<property name="КлиентИНН" type="xs:string"/>
+		<property name="КлиентКПП" type="xs:string" nillable="true"/>
+		<property name="КлиентНаименование" type="xs:string"/>
+		<property name="КлиентБИКБанка" type="xs:string"/>
+		<property name="КлиентНомерСчета" type="xs:string"/>
+		<property name="СуммаПриход" type="xs:float"/>
+		<property name="СуммаРасход" type="xs:float"/>
+		<property name="СуммаНДС" type="xs:float"/>
+		<property name="ТипДвижения" type="xs:string"/>
+		<property name="НомерЗаявки" type="xs:string" nillable="true"/>
+		<property name="КодБазы" type="xs:string" nillable="true"/>
+		<property name="КодЦФУРаспределения" type="xs:string" nillable="true"/>
+		<property name="ПроцентРаспределения" type="xs:float" nillable="true"/>
+		<property name="НаименованиеДоговора" type="xs:string" nillable="true"/>
+		<property name="НазначениеПлатежа" type="xs:string" nillable="true"/>
+		<property xmlns:d3p1="http://www.mercury.org" name="ПараметрыУправленческогоУчета" type="d3p1:Параметры" lowerBound="0" upperBound="-1" nillable="true"/>
+		<property xmlns:d3p1="http://www.mercury.org" name="ДанныеКомандировок" type="d3p1:ДанныеКомандировок" lowerBound="0" upperBound="-1" nillable="true"/>
+	</objectType>
+	<objectType name="Параметры">
+		<property name="Имя" type="xs:string"/>
+		<property name="Значение" type="xs:string" nillable="true" default=""/>
+		<property name="ТипЗначения" type="xs:string" nillable="true"/>
+	</objectType>
+	<objectType name="ДанныеКомандировок">
+		<property name="КодБренда" type="xs:string" default="&quot;00000&quot;"/>
+		<property name="НаименованиеВалюты" type="xs:string" default="&quot;RUR&quot;"/>
+		<property name="ВалютнаяСумма" type="xs:float" nillable="true" default="0"/>
+		<property name="КодВидаКомандировочных" type="xs:string" default=""/>
+		<property name="КодКатегорииОперации" type="xs:string" nillable="true" default=""/>
+		<property name="Комментарий" type="xs:string" nillable="true" default=""/>
+		<property name="НомерКомандировки" type="xs:integer" nillable="true" default="0"/>
+		<property name="КодСезона" type="xs:string" nillable="true"/>
+		<property name="КодЦФУ" type="xs:string" nillable="true"/>
+		<property name="КодЦелиПоездки" type="xs:string" nillable="true"/>
+	</objectType>
+</package>

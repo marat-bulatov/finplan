@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2cf2a8a-6dc5-4457-9c8a-2364696a658a">
+  <name>ЧтениеПрисоединенныхФайловКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение присоединенных файлов контрагентов</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentNumerator xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3053870-57fe-48a2-8823-712f9deeccc5">
+  <name>НумераторПланируемыхОплат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нумератор планируемых оплат</value>
+  </synonym>
+  <numberLength>12</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+</mdclass:DocumentNumerator>

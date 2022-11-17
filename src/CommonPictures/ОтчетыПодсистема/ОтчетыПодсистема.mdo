@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8c5a4c3-4e36-4b43-9efd-434d5cf8ba86">
+  <name>ОтчетыПодсистема</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты подсистема</value>
+  </synonym>
+</mdclass:CommonPicture>

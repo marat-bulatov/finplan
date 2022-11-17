@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f95c4adb-214f-49eb-b81e-dfb549416e91">
+  <producedTypes>
+    <objectType typeId="b252eb74-68fb-4af8-9532-52db9038bed8" valueTypeId="42ada82d-c487-4e4f-bf5a-f8fb925920be"/>
+    <managerType typeId="53842f61-71ad-4b88-81d8-01fb1b738499" valueTypeId="5edc81cd-7453-4c75-9e76-69c9dca1de1e"/>
+  </producedTypes>
+  <name>ОтчетЗаДень</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет за день</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчетЗаДень.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="a7a8fa12-319f-40ae-926c-f790cfcd4248">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

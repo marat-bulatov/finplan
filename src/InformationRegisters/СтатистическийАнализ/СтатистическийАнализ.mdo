@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="81b3ba0c-739a-4ee2-bbb9-01a636fec5f1">
+  <producedTypes>
+    <selectionType typeId="a0a5b5a8-f3f1-4f9d-85fe-f06923083efe" valueTypeId="dbbfcb7f-b7bc-4b29-883d-3076518f738a"/>
+    <listType typeId="a3858ced-ea8d-4735-ac47-7215f9f51966" valueTypeId="549aa7f3-819b-49a4-968e-303cda43a0bb"/>
+    <managerType typeId="f9ea1af0-4302-4ef9-ad0e-8f0fc7fa939a" valueTypeId="532ac5e7-55e4-4794-8823-5688d6a27e76"/>
+    <recordSetType typeId="63461648-1744-42a1-a617-e86a82b66e1e" valueTypeId="c3f0cc1e-35c6-477a-8a7e-b9f069ea14ef"/>
+    <recordKeyType typeId="9a65f8e9-83b5-4cb4-85fb-a5738e5455f2" valueTypeId="82f34326-0cc9-4c88-ac62-e32a074b2041"/>
+    <recordType typeId="f3ca5982-fe18-41d5-b34f-ceafa4ac1373" valueTypeId="ebaebd12-7d21-4d77-8783-811a4b6520a7"/>
+    <recordManagerType typeId="de278fa4-2054-458b-8dcc-739c09cf82c0" valueTypeId="d6f39e31-4239-462c-b4c1-c30a12059e6d"/>
+  </producedTypes>
+  <name>СтатистическийАнализ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статистический анализ</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d46fa7f3-259e-4076-beee-38d30796cf44">
+    <name>ЧастотаИспользования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Частота использования</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8cd7d4b1-3b07-4b58-ae11-9b474ea708dc">
+    <name>ОбъектАнализа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект анализа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиДДС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

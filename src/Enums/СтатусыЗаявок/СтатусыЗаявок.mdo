@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3eaf534-bff9-42ea-af28-b808502ec8fe">
+  <producedTypes>
+    <refType typeId="039cd7f9-1316-4594-a4c9-46a6b6e38260" valueTypeId="e49c201c-fb1a-41fb-922d-ab3998dde3be"/>
+    <listType typeId="a711776b-7882-4b0c-b6a4-a32943d0d756" valueTypeId="0111298e-bb7a-48d5-9a6f-0b6b6f2e9cdc"/>
+    <managerType typeId="8437e67e-6570-4c8b-afdb-32b63d4ddfe2" valueTypeId="278e621e-feee-4c25-b96d-8a32c21db043"/>
+  </producedTypes>
+  <name>СтатусыЗаявок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы заявок</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f138dbcc-3a09-4eeb-9f03-4fb13d021732">
+    <name>Новый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0794bb52-b7e6-43c3-80e9-5c164d5389c2">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="73622050-0d2d-421c-94c1-154ec700be6b">
+    <name>НаОплату</name>
+    <synonym>
+      <key>ru</key>
+      <value>На оплату</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d7fed096-261a-46be-a2fd-17cf06813c09">
+    <name>ЧастичнаяОплата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Частичная оплата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8a661980-ff56-40e0-a51f-8065fb61e949">
+    <name>Оплачен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплачен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3ca764cd-57c2-4820-a4fe-7cfb75cc3190">
+    <name>Отмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отмена</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

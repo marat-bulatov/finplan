@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e916ca61-76c4-4eed-a28e-d696a2067e0f">
+  <producedTypes>
+    <objectType typeId="37988c34-1a78-44c9-9a3d-aad57c9c6c20" valueTypeId="c0c79a8d-2f6f-4809-b61c-ebafd36b713d"/>
+    <managerType typeId="32c9ef32-a89a-41fd-bce7-52f649380f2d" valueTypeId="89de2cb6-e35e-4211-8fc8-5d51e062fa91"/>
+  </producedTypes>
+  <name>КонтрольноКассовыеМашины</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрольно кассовые машины</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.КонтрольноКассовыеМашины.Template.СхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="4d626fd6-25d5-4d7b-87e7-d66e01ee4904">
+    <name>СхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

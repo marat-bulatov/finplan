@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="468b1837-f571-4f8c-a448-de6820833198">
+  <producedTypes>
+    <selectionType typeId="5287a687-8e48-4fb2-8320-1d99713aa656" valueTypeId="46982fcc-1357-4378-9134-648b8c36c053"/>
+    <listType typeId="d8261b39-d54a-4dc4-a93d-a9bf2166a58c" valueTypeId="ec9f89fd-68f7-4479-be82-76fb4e1698ae"/>
+    <managerType typeId="2971311f-dc2a-4b50-b798-ea1914006f08" valueTypeId="1dd8b511-55d6-4fae-b05b-373dd13192a9"/>
+    <recordSetType typeId="3db814e8-0cfa-442a-890b-e78a43480ae6" valueTypeId="91fa5bae-bea8-4647-b255-e5616097405a"/>
+    <recordKeyType typeId="dca23d40-662e-43da-b5f0-82433b69ab7f" valueTypeId="36c26b31-b796-4328-bb13-3d26f108fa79"/>
+    <recordType typeId="0460368d-7563-4fe5-920d-958d484f316b" valueTypeId="57e3e738-71c0-424b-8e0f-e12072c8525c"/>
+    <recordManagerType typeId="b1d3a21d-07cf-41be-8464-7f281f38c1c9" valueTypeId="8ec81aa1-d910-48f9-a96b-bc4ff9f20bdf"/>
+  </producedTypes>
+  <name>ПривязкиДоговоровЦФУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Привязки договоров к ЦФУ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>InformationRegister.ПривязкиДоговоровЦФУ.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="b4923a08-6b43-4f72-9880-33640fedf078">
+    <name>Процент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="17320f1e-1ee2-41fe-ae58-b02b0cb6798d">
+    <name>ДоговорКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор контрагента</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="03069734-4bfc-425f-a94d-187cff4c803e">
+    <name>ЦФУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЦФУ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЦФУ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="419ed741-7d64-4911-b322-209219d41037">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="07f91028-f5b9-4111-87f2-ae6f49ebd6af">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

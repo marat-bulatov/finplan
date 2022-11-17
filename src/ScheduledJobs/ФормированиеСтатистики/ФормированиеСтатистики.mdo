@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f528b0b8-16ad-4800-846c-5bb5f2dd841c">
+  <name>ФормированиеСтатистики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формирование статистики</value>
+  </synonym>
+  <methodName>CommonModule._ЗапускРегламентныхЗаданий.ФормированиеСтатистики</methodName>
+  <description>Формирование статистики использования</description>
+  <key>1c2ff193-2727-4047-af7f-83ba31a5f0a2</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18fd99ed-f701-432d-ae4c-da31ad526d9b">
+  <producedTypes>
+    <refType typeId="5bc58ce3-c9b0-4172-bd9b-01ca2cf17418" valueTypeId="792088a6-8bd0-4b86-a74e-83a7e155779e"/>
+    <listType typeId="54c22a60-fda3-4b72-b67a-3f811e0770fb" valueTypeId="00380709-b93e-4b3a-bc0f-a693cfe4e49d"/>
+    <managerType typeId="e37f981e-d7a1-42f8-bbd6-4f6b12e356d1" valueTypeId="de76270a-1f69-4d12-98d2-c90ef90bca64"/>
+  </producedTypes>
+  <name>ТипыЛицензийККМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы лицензий ККМ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="eee895d1-c0f8-471b-a15a-12b9ceba845c">
+    <name>Разовая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разовая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="27bebb96-be84-4de0-be4a-fcb28a2aa61a">
+    <name>Годовая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Годовая</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

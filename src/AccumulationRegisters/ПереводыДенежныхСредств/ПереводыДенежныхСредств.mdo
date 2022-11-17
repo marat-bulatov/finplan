@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc6f5f82-8d7f-4f00-98d7-9b280b1ebc68">
+  <producedTypes>
+    <selectionType typeId="56237958-69a0-4212-b332-10385324c4e4" valueTypeId="b273db22-a65e-4646-ac65-3d958bf8ade6"/>
+    <listType typeId="fe91ae55-39ac-4a8f-98c1-04e3c907e9e0" valueTypeId="f58dfc08-d015-409d-b622-103e046ce650"/>
+    <managerType typeId="c9af962d-5fc7-4d08-8ad5-ffe09ce86da5" valueTypeId="be8e9fc0-37b3-4a06-8428-5fd694bba91c"/>
+    <recordSetType typeId="e3073dca-5dcd-4905-a45e-fadd70407820" valueTypeId="36cb546d-2474-4464-a2cd-332f8e757401"/>
+    <recordKeyType typeId="02f5f9c3-51be-482f-a08a-1daf8ec8bdcb" valueTypeId="39294737-ee62-422a-ac6d-0221abd39c42"/>
+    <recordType typeId="3d047bc7-9ce5-48df-808e-8b9467cd4c55" valueTypeId="d824ff75-473d-44c2-ae0a-35fead2307bf"/>
+  </producedTypes>
+  <name>ПереводыДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переводы денежных средств</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="17350b7c-dab9-4f2c-babd-4265c9fe7633">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="c27c91aa-242f-4fc4-9dad-5127d9ff94df">
+    <name>ДатаПеревода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата перевода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="99bb56ea-320b-4628-99ba-400881ba7132">
+    <name>ОрганизацияИсточник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация источник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="223e481f-fd65-4b3b-a47f-4eb98ce4c868">
+    <name>СчетИсточник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет источник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БанковскиеСчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>AccumulationRegister.ПереводыДенежныхСредств.Dimension.ОрганизацияИсточник</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="92db051c-fd32-43b7-b9b1-f6338df50124">
+    <name>ОрганизацияПриемник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация приемник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="193b7957-bb46-4736-b9d6-726ff9c9da8a">
+    <name>СчетПриемник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет приемник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БанковскиеСчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>AccumulationRegister.ПереводыДенежныхСредств.Dimension.ОрганизацияПриемник</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="573b543f-f358-4479-bb66-a4d24f0dc288">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

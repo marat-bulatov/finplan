@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b1d4410-94b1-46ba-8d3a-1e90a91e1f3b">
+  <name>УчетОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет оборудования</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ОбслуживаниеКонтрольноКассовыхМашин</picture>
+  </picture>
+  <content>Catalog.КонтрольноКассовыеМашины</content>
+  <content>Catalog.МоделиКонтрольноКассовыхМашин</content>
+  <content>Catalog.Магазины</content>
+  <content>Catalog.Площадки</content>
+  <content>Catalog.СтатусыКонтрольноКассовыхМашин</content>
+  <content>Catalog.АдресаКонтрольноКассовыхМашин</content>
+  <content>InformationRegister.ФискальныеНакопители</content>
+  <content>Catalog.ВидыКонтрольноКассовыхМашин</content>
+  <content>Catalog.ВремяРаботыФискальногоНакопителя</content>
+  <content>Catalog.ОператорыФискальныхДанных</content>
+  <content>Report.КонтрольноКассовыеМашины</content>
+  <content>3bac252a-bf47-46e9-9e86-62f43ac7ac8e</content>
+  <content>Report.ДокументыККМ</content>
+  <content>Catalog.ТипыДокументовККМ</content>
+</mdclass:Subsystem>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c563672-3015-4cc5-9c97-005fc5b22cc5">
+  <name>Документы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.БанкИКасса</picture>
+  </picture>
+  <content>Document.Операция</content>
+  <content>AccumulationRegister.ДенежныеСредства</content>
+  <content>InformationRegister.ПарныеДоговоры</content>
+  <content>AccumulationRegister.ПереводыДенежныхСредств</content>
+  <content>AccumulationRegister.ПланируемыеДвижения</content>
+  <content>Constant.РаботаСОчередьюSQLРазрешена</content>
+  <content>Document.Выписка</content>
+  <content>Document.ФинансовыйПлан</content>
+  <content>Document.ФинансовыйПланРегистр</content>
+  <content>InformationRegister.СостоянияСтрокДокументов</content>
+</mdclass:Subsystem>

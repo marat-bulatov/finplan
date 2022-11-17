@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7fc7d61-4e0b-4380-a7be-6bf606532071">
+  <producedTypes>
+    <objectType typeId="5692f75b-f0fc-4fb3-8f86-8cd102a2688c" valueTypeId="f4bdb622-d20d-4164-b958-f852dc32c424"/>
+    <managerType typeId="81654b56-3fa5-4e65-9920-1a5c184c7f09" valueTypeId="296cc848-287c-4ced-bc1f-867212cbcb4b"/>
+  </producedTypes>
+  <name>НадежностьВходящегоНДССПАРКРиски</name>
+  <synonym>
+    <key>ru</key>
+    <value>Надежность входящего НДС 1СПАРК Риски</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.НадежностьВходящегоНДССПАРКРиски.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="8088b0ed-c432-46af-9ff1-1a191247d970">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

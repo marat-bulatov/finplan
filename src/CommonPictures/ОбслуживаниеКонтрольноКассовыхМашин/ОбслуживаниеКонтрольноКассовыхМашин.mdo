@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91819778-7550-46c7-9856-34094366a580">
+  <name>ОбслуживаниеКонтрольноКассовыхМашин</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обслуживание контрольно кассовых машин</value>
+  </synonym>
+</mdclass:CommonPicture>

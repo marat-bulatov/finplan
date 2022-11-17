@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a6e9bf0-1279-4274-80b9-da26c3523087">
+  <producedTypes>
+    <objectType typeId="fd302fde-4bb1-42ff-9c24-5ddbfc7d9d6b" valueTypeId="7fb48962-bec2-43f8-bff3-012184c80d0e"/>
+    <refType typeId="4c5c7ef1-19c2-4dbf-a0b1-13d94f47f04d" valueTypeId="9c4ae333-3835-460f-97e5-725ea8e802ec"/>
+    <selectionType typeId="0f748d32-daea-4c6c-a0ff-47e2339626e8" valueTypeId="694f6fae-1a5d-4b20-85c3-0a8ec8396747"/>
+    <listType typeId="3d089f16-96a8-469f-8983-706e02903ff8" valueTypeId="0934c5f3-d66e-4b79-8949-b3bdd29d131d"/>
+    <managerType typeId="002d62b0-0bc9-48cd-8aea-61841f9ab50b" valueTypeId="1e3a9ef6-2e0c-4594-9579-343dfda3cf18"/>
+  </producedTypes>
+  <name>ЗначенияСубконтоУправленческогоУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения субконто управленческого учета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЗначенияСубконтоУправленческогоУчета.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЗначенияСубконтоУправленческогоУчета.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>ChartOfCharacteristicTypes.РеквизитыУправленческогоУчета</owners>
+  <codeLength>12</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <codeSeries>WithinSubordination</codeSeries>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ЗначенияСубконтоУправленческогоУчета.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ЗначенияСубконтоУправленческогоУчета.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ЗначенияСубконтоУправленческогоУчета.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="8a35ff5c-6a25-42ba-8fc3-ef6955f6dde7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e5df3931-4193-491e-a3fa-fa62f5bcbfea">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="743c2694-81fe-46b7-bf6d-826d440c9376">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

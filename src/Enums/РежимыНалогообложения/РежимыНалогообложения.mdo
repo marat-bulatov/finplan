@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26ea63f9-8b60-40e6-99e1-039acb10d98b">
+  <producedTypes>
+    <refType typeId="e7e3fa3f-aad9-4b25-b7ff-09d4e940a63c" valueTypeId="139c0724-7e66-45a9-a684-27a87653f6b3"/>
+    <listType typeId="698336e3-9bac-4ee5-a4e0-6362d0c816d6" valueTypeId="39df8d3f-6af2-4857-ab0a-bd44f8bb6ae3"/>
+    <managerType typeId="c3536d40-d1f8-4ab9-a2d0-3b0c544bd391" valueTypeId="5c5a11d9-2346-4b70-ab0d-3a05121aaafd"/>
+  </producedTypes>
+  <name>РежимыНалогообложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режимы налогообложения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fd66d45b-3414-44e6-a6f2-dd12765881dd">
+    <name>ОСНО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОСНО</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8403cb8e-3a4b-4fc3-9125-50397dccd14d">
+    <name>УСН</name>
+    <synonym>
+      <key>ru</key>
+      <value>УСН</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="10a88ddd-3241-4be5-9b6e-589d42802885">
+    <name>ЕНВД</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЕНВД</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

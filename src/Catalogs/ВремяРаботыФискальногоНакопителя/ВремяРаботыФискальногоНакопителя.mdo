@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d3c3edf-e6be-439c-a206-0fd18d3cea4e">
+  <producedTypes>
+    <objectType typeId="7af8a420-bcb8-4dd2-b41a-b0d4b740d1a0" valueTypeId="89aeb116-8354-42e9-8e06-df7ca5568ef1"/>
+    <refType typeId="8dd3c331-1d22-4267-94b4-80db42b761d2" valueTypeId="f4aa5205-2bc5-4b01-a44d-201e02239faf"/>
+    <selectionType typeId="bcafee38-fd86-4786-9639-3af6a5d50eb4" valueTypeId="22fba441-05ff-4d7b-bc5e-417caae58b13"/>
+    <listType typeId="74e0a11e-f504-4bac-a4b9-340a58dad2cc" valueTypeId="c482025d-ddd1-484c-b832-dc8ae4aebd24"/>
+    <managerType typeId="4f246e53-8407-44ac-9744-28de27815673" valueTypeId="7198d1b3-ad89-43e0-8fb6-5b7433a6e03a"/>
+  </producedTypes>
+  <name>ВремяРаботыФискальногоНакопителя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Время работы фискального накопителя</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВремяРаботыФискальногоНакопителя.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВремяРаботыФискальногоНакопителя.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

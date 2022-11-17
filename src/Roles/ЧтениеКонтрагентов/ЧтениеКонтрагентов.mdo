@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e577011-9bd0-4a88-b10a-cb50808c2596">
+  <name>ЧтениеКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение контрагентов</value>
+  </synonym>
+</mdclass:Role>

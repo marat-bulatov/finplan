@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="621e789a-fd4a-4562-a0a1-d0cd313a0e45" thisNode="9cec881c-66c4-4f4e-8159-9147bd5f5f44">
+  <producedTypes>
+    <objectType typeId="337217ee-5122-4a3d-95a2-65e6627f9bbb" valueTypeId="e1ac2248-7c22-4059-a872-fb9e22fae81e"/>
+    <refType typeId="e541dfe6-7561-4568-bd9b-b8781eeea35a" valueTypeId="9c414f03-0cf5-49e4-9f38-b6dad223bf01"/>
+    <selectionType typeId="29f24a7d-6f94-4a54-b981-f5c554215881" valueTypeId="38a1bbde-b0ad-466a-88aa-0ff50546d184"/>
+    <listType typeId="53747cfa-caa6-483d-841a-5cfb46a6572b" valueTypeId="05a8b7d8-84b0-464d-97ad-7146f9b30532"/>
+    <managerType typeId="357dbd33-9d8e-4e7b-b178-68d497e6832b" valueTypeId="464db917-52fb-4207-8ef2-4032208161e4"/>
+  </producedTypes>
+  <name>УправленческийУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управленческий учет</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.УправленческийУчет.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.УправленческийУчет.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>AccumulationRegister.ДенежныеСредства</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ExchangePlan.УправленческийУчет.Form.ФормаУзла</defaultObjectForm>
+  <forms uuid="f29089b9-ff62-41c2-8a4e-b205c6a8391c">
+    <name>ФормаУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма узла</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExchangePlan>

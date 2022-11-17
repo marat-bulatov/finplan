@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c9dc0a8-018d-439f-b998-62296d2951cc">
+  <producedTypes>
+    <selectionType typeId="f0cc404a-f032-4128-9e2b-914a7a664de1" valueTypeId="57079dc2-2f78-4673-8ab1-2f612ddcd150"/>
+    <listType typeId="50ff82c5-081b-4f67-9047-0c655315282b" valueTypeId="d3c43c50-b107-4517-8652-ef1d97d10ca9"/>
+    <managerType typeId="529d6e7d-2466-4aeb-931a-e3a0b1899d59" valueTypeId="4908dde9-e537-4932-9170-85a470201a60"/>
+    <recordSetType typeId="25107f2d-aa62-4acc-a632-412b1deb8c62" valueTypeId="65936ce8-acc4-4eb0-b220-667438b20261"/>
+    <recordKeyType typeId="f356d509-9765-428c-99b7-8d2c2dc05039" valueTypeId="08bf9a1e-ea5d-4839-843c-c3fa0bf54043"/>
+    <recordType typeId="9dfe636a-f3f5-466f-950e-cbdfeaead7b8" valueTypeId="e4696beb-c029-426b-9d4f-51c3a868035b"/>
+    <recordManagerType typeId="5bde6141-ddd6-4753-894e-488c341a95d5" valueTypeId="5fc79f6a-e863-4c02-b5e6-c9a0e61489e7"/>
+  </producedTypes>
+  <name>ХэшиФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хэши файлов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c4eb4151-da38-45e6-9bf7-1af41df563f7">
+    <name>ХэшMD5</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хэш MD5</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>32</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="f80608a9-4a68-4eb4-be6e-cddc503be68f">
+    <name>Файл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ПрисоединенныйФайл</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

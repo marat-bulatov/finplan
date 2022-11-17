@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b27313da-8f6f-4501-bb7f-1e02ea7e5441">
+  <producedTypes>
+    <refType typeId="adcef1e7-01db-4d4b-9913-84a8b6b7b647" valueTypeId="64a709a9-557f-467c-8f0e-f1b3fbcb84b3"/>
+    <listType typeId="422f60cb-fdbf-4633-816d-3701f8ff5fb1" valueTypeId="014a2dca-0add-4961-9887-7a51caf7f665"/>
+    <managerType typeId="1017115a-e5dc-4af3-9e07-6a2d1c288c06" valueTypeId="ba256b66-5974-4b61-958c-564a94b62b15"/>
+  </producedTypes>
+  <name>ВидыРезидентностиКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды резидентности контрагентов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="281b99cd-ff1d-4937-8dad-b050ff3c1b51">
+    <name>Резидент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Резидент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="81238d60-0067-4aca-9e64-a880758998df">
+    <name>НеРезидент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не резидент</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

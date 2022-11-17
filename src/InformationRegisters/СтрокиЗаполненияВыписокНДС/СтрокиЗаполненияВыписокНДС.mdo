@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa5fb582-2a58-4fb7-bbb0-8c02d0d58d89">
+  <producedTypes>
+    <selectionType typeId="8ee80c9f-1fba-4ebe-a73b-2e7a5e60bf95" valueTypeId="4bdf003e-9486-4cae-a78c-e22185628122"/>
+    <listType typeId="df7a4291-ee66-490c-a253-c66cc5345a2d" valueTypeId="ed3591b5-d5e1-4ea7-ac52-d28bb11b9857"/>
+    <managerType typeId="643b67a6-5c3b-46f6-9abc-3cb03a0bffd3" valueTypeId="e8d327e6-1c92-4ce1-a01d-f3ec3891c179"/>
+    <recordSetType typeId="3d079d0b-257c-4b0c-a020-1f57ebc52a1a" valueTypeId="240a9cb0-b429-4d84-951d-4e1e9b2e3a7b"/>
+    <recordKeyType typeId="008f5242-9b78-49e6-90ec-c821e3aeafde" valueTypeId="3aca4aae-8eb8-41d8-bf77-91a178c8f3de"/>
+    <recordType typeId="08e8bdd2-b1b0-4f30-8f79-98d1781903cf" valueTypeId="fe756218-3ca8-43f9-947d-350cba2676b5"/>
+    <recordManagerType typeId="2d561a56-9ae1-463e-be4d-efaf748f836f" valueTypeId="c6002456-0d8c-443e-b3ac-6e528f6dcbee"/>
+  </producedTypes>
+  <name>СтрокиЗаполненияВыписокНДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Строки заполнения выписок НДС</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dimensions uuid="7d0473d2-5ef3-40bd-b61f-5acd661d11d4">
+    <name>СтрокаПоиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка поиска</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e7afbeda-a3b3-429b-a737-8660d920b3ad">
+    <name>СтрокаСуммыШаг1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка суммы шаг 1</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="48e54294-1325-4a16-9643-6480591fa71c">
+    <name>СтрокаСуммыШаг2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка суммы шаг 2</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ee1f82f2-8e7b-45e6-b906-5f63a0156820">
+    <name>СтрокаСуммыШаг3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка суммы шаг 3</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

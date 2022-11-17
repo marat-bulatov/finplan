@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71d93b8c-d0ac-49c8-b0be-94b29b8cba12">
+  <producedTypes>
+    <containerType typeId="b9c0afae-c1c7-4319-a866-521727e2c50c" valueTypeId="c7bc9fac-8d01-4b88-8b15-a3a56a024397"/>
+  </producedTypes>
+  <name>ДокументыСостоянияСтрок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы состояния строк</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.Выписка</types>
+    <types>DocumentRef.ФинансовыйПлан</types>
+  </type>
+</mdclass:DefinedType>

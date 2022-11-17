@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d4a381c-c46d-476b-b921-10552f931dc9">
+  <producedTypes>
+    <managerType typeId="4d686f62-2156-43be-a3cb-ed8a1326ef81" valueTypeId="8254c0ff-8ee9-4a43-b173-8f2f143ba62e"/>
+    <valueManagerType typeId="3caab7b1-993f-401c-a41e-e39685bef3fc" valueTypeId="bf050b8b-455b-4d2a-b2da-b50efe4c142d"/>
+    <valueKeyType typeId="46027783-c211-44aa-80d8-b30c979b21e1" valueTypeId="75684f04-30ba-4559-8ddb-eee4f88944de"/>
+  </producedTypes>
+  <name>РаботаСОчередьюSQLРазрешена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с очередью SQL разрешена</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

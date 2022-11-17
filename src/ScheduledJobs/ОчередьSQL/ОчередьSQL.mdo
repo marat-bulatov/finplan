@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ddb92b9-a254-4f4b-946c-a086236f5961">
+  <name>ОчередьSQL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очередь SQL</value>
+  </synonym>
+  <methodName>CommonModule.ОчередьSQL.ВыполнитьВсеЗапросыИзОчереди</methodName>
+  <description>Очередь SQL</description>
+  <key>1c2ff193-2727-4047-af7f-83ba31a5f0a0</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>
