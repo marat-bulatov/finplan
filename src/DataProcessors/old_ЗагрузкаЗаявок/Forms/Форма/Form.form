@@ -116,7 +116,6 @@
     <excludedCommands>MoveDown</excludedCommands>
     <excludedCommands>MoveUp</excludedCommands>
     <excludedCommands>OutputList</excludedCommands>
-    <excludedCommands>SearchHistory</excludedCommands>
     <excludedCommands>ShowRowRearrangement</excludedCommands>
     <items xsi:type="form:FormField">
       <name>ТаблицаЗаявокФлаг</name>

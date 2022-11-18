@@ -272,7 +272,6 @@
     <excludedCommands>MoveDown</excludedCommands>
     <excludedCommands>MoveUp</excludedCommands>
     <excludedCommands>OutputList</excludedCommands>
-    <excludedCommands>SearchHistory</excludedCommands>
     <excludedCommands>SelectAll</excludedCommands>
     <excludedCommands>ShowMultipleSelection</excludedCommands>
     <excludedCommands>ShowRowRearrangement</excludedCommands>
