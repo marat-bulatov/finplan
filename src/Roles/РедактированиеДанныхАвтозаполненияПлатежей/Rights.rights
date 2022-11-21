@@ -1709,17 +1709,6 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.КорректировкаДвижений.TabularSection.Регистры.Attribute.Синоним</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.РучныеИзмененияГрафиковРаботы.Dimension.ДатаГрафика</name>
 		<right>
 			<name>View</name>
@@ -6736,17 +6725,6 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.КорректировкаДвижений.TabularSection.Регистры.Attribute.ЕстьДвижения</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.ВариантыОтчетов.Attribute.ИнтерактивнаяПометкаУдаления</name>
 		<right>
 			<name>View</name>
@@ -11158,17 +11136,6 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.КорректировкаДвижений.Attribute.ЕстьРучнаяКорректировка</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>DataProcessor.УниверсальныйОбменДаннымиXML.Attribute.КаталогИнформационнойБазыДляПодключения</name>
 		<right>
 			<name>View</name>
@@ -12181,17 +12148,6 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.КорректировкаДвижений.Attribute.ПометкаУдаления</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.ПричиныИзмененияАдресныхСведений.StandardAttribute.Active</name>
 		<right>
 			<name>View</name>
@@ -12501,17 +12457,6 @@
 	</object>
 	<object>
 		<name>Catalog.ШаблоныСообщенийПрисоединенныеФайлы.Attribute.Автор</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.КорректировкаДвижений.Attribute.ЕстьОрганизация</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -16416,17 +16361,6 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.КорректировкаДвижений.TabularSection.Регистры</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.ГруппыДоступа.Attribute.Пользователь</name>
 		<right>
 			<name>View</name>
@@ -17968,17 +17902,6 @@
 	</object>
 	<object>
 		<name>Document.ТелефонныйЗвонок.Attribute.АбонентКакСвязаться</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.КорректировкаДвижений.TabularSection.Регистры.Attribute.Имя</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -19695,17 +19618,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.ЗаблокированныеДляПолученияУчетныеЗаписи.Dimension.УчетнаяЗапись</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.КорректировкаДвижений.TabularSection.Регистры.Attribute.ТипРегистра</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -23270,17 +23182,6 @@
 	</object>
 	<object>
 		<name>DataProcessor.КонвертацияОбъектовИнформационныхБаз.Attribute.Параметры</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.КорректировкаДвижений.Attribute.Проведен</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -27174,17 +27075,6 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.КорректировкаДвижений.Attribute.Организация</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.ИдентификаторыОбъектовРасширений.Attribute.БезДанных</name>
 		<right>
 			<name>View</name>
@@ -29033,17 +28923,6 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.КорректировкаДвижений.TabularSection.Регистры.Attribute.Прочитан</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.УдалитьНастройкиТранспортаОбмена.Resource.WSЗапомнитьПароль</name>
 		<right>
 			<name>View</name>
@@ -30596,17 +30475,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.УдалитьНастройкиТранспортаОбмена.Dimension.УзелИнформационнойБазы</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.КорректировкаДвижений.TabularSection.Регистры.Attribute.Отрисован</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -34434,17 +34302,6 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.КорректировкаДвижений.TabularSection.Регистры.Attribute.Отображение</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы.Attribute.ИндексКартинки</name>
 		<right>
 			<name>View</name>
@@ -34710,17 +34567,6 @@
 	</object>
 	<object>
 		<name>Document.ЭлектронноеПисьмоИсходящее.TabularSection.ПисьмаВложения.Attribute.Письмо</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.КорректировкаДвижений.Attribute.Дата</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -35051,17 +34897,6 @@
 	</object>
 	<object>
 		<name>Catalog.ЗапланированноеВзаимодействиеПрисоединенныеФайлы.Attribute.Описание</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.КорректировкаДвижений.TabularSection.Регистры.Attribute.Подсистемы</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -41375,17 +41210,6 @@
 	</object>
 	<object>
 		<name>Catalog.УчетныеЗаписиЭлектроннойПочты.Attribute.СерверИсходящейПочты</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.КорректировкаДвижений.Attribute.РучнаяКорректировка</name>
 		<right>
 			<name>View</name>
 			<value>false</value>

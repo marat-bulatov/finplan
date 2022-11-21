@@ -75,10 +75,6 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.Date</segments>
           </dataPath>
-          <handlers>
-            <event>OnChange</event>
-            <name>ДатаПриИзменении</name>
-          </handlers>
           <extendedTooltip>
             <name>ДатаExtendedTooltip</name>
             <id>298</id>
@@ -306,10 +302,6 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.Организация</segments>
         </dataPath>
-        <handlers>
-          <event>OnChange</event>
-          <name>ОрганизацияПриИзменении</name>
-        </handlers>
         <extendedTooltip>
           <name>ОрганизацияExtendedTooltip</name>
           <id>299</id>
@@ -1520,28 +1512,6 @@
     <modifiesStoredData>true</modifiesStoredData>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
-  <formCommands>
-    <name>ЗаполнитьПоТиповойОперации</name>
-    <title>
-      <key>ru</key>
-      <value>Заполнить</value>
-    </title>
-    <id>1</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Заполнить по типовой операции</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ЗаполнитьПоТиповойОперации</name>
-      </handler>
-    </action>
-    <modifiesStoredData>true</modifiesStoredData>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
   <parameters>
     <name>ПараметрРегистр</name>
     <valueType>
@@ -1616,10 +1586,6 @@
     <handlers>
       <event>BeforeWriteAtServer</event>
       <name>ПередЗаписьюНаСервере</name>
-    </handlers>
-    <handlers>
-      <event>OnWriteAtServer</event>
-      <name>ПриЗаписиНаСервере</name>
     </handlers>
   </extInfo>
 </form:Form>

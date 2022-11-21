@@ -6116,10 +6116,6 @@
         <viewStatusLocation>None</viewStatusLocation>
         <searchControlLocation>None</searchControlLocation>
         <extInfo xsi:type="form:DynamicListTableExtInfo">
-          <handlers>
-            <event>OnGetDataAtServer</event>
-            <name>СписокРазрешительныеДокументыПриПолученииДанныхНаСервере</name>
-          </handlers>
           <autoRefreshPeriod>60</autoRefreshPeriod>
           <period>
             <startDate>0001-01-01T00:00:00</startDate>
@@ -7592,10 +7588,6 @@
   <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
-  </handlers>
-  <handlers>
-    <event>ActivationProcessing</event>
-    <name>ОбработкаАктивизации</name>
   </handlers>
   <handlers>
     <event>FillCheckProcessingAtServer</event>

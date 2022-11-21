@@ -1511,10 +1511,6 @@
         <name>ДанныеВыпискиПриОкончанииРедактирования</name>
       </handlers>
       <handlers>
-        <event>ValueChoice</event>
-        <name>ДанныеВыпискиВыборЗначения</name>
-      </handlers>
-      <handlers>
         <event>Selection</event>
         <name>ДанныеВыпискиВыбор</name>
       </handlers>
@@ -3706,10 +3702,6 @@
   <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
-  </handlers>
-  <handlers>
-    <event>FillCheckProcessingAtServer</event>
-    <name>ОбработкаПроверкиЗаполненияНаСервере</name>
   </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
