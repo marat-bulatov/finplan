@@ -180,50 +180,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.УдалитьНаборыЗначенийДоступа.StandardAttribute.Active</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.УдалитьНаборыЗначенийДоступа.StandardAttribute.LineNumber</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.УдалитьНаборыЗначенийДоступа.StandardAttribute.Recorder</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.УдалитьНаборыЗначенийДоступа.StandardAttribute.Period</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>DataProcessor.ПомощникСозданияОбменаДанными.Attribute.COMПарольПользователя</name>
 		<right>
 			<name>View</name>
@@ -9121,17 +9077,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.УдалитьНаборыЗначенийДоступа.Dimension.ЗначениеДоступа</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.ИдентификаторыОбъектовРасширений.Attribute.Имя</name>
 		<right>
 			<name>View</name>
@@ -12798,17 +12743,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.РучныеИзмененияГрафиковРаботы.Resource.РучноеИзменение</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.УдалитьНаборыЗначенийДоступа.Dimension.ВидДоступа</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -22863,17 +22797,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.УдалитьНаборыЗначенийДоступа.Dimension.Объект</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.Организации.TabularSection.КонтактнаяИнформация.Attribute.Представление</name>
 		<right>
 			<name>View</name>
@@ -23904,17 +23827,6 @@
 	</object>
 	<object>
 		<name>Document.ЗапланированноеВзаимодействие.TabularSection.ДополнительныеРеквизиты.Attribute.ТекстоваяСтрока</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.УдалитьНаборыЗначенийДоступа.Resource.Изменение</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -25792,17 +25704,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.НастройкиКомандПечати.StandardAttribute.Period</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.УдалитьНаборыЗначенийДоступа.Resource.Чтение</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -33076,17 +32977,6 @@
 	</object>
 	<object>
 		<name>Document.ЭлектронноеПисьмоВходящее.TabularSection.АдресаУведомленияОПрочтении.Attribute.Представление</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.УдалитьНаборыЗначенийДоступа.Dimension.НомерНабора</name>
 		<right>
 			<name>View</name>
 			<value>false</value>

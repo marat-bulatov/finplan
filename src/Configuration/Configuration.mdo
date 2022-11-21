@@ -2659,7 +2659,6 @@
   <informationRegisters>InformationRegister.ПакетыДляОтправки</informationRegisters>
   <informationRegisters>InformationRegister.ПотокиОбновления</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьЗамерыВремениТехнологические</informationRegisters>
-  <informationRegisters>InformationRegister.УдалитьНаборыЗначенийДоступа</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьНастройкиВерсионированияОбъектов</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьПраваПоЗначениямДоступа</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьСтраныМира</informationRegisters>
