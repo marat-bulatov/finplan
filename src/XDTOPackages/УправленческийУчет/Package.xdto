@@ -40,8 +40,8 @@
 		<property name="ТипЗначения" type="xs:string" nillable="true"/>
 	</objectType>
 	<objectType name="ДанныеКомандировок">
-		<property name="КодБренда" type="xs:string" default="&quot;00000&quot;"/>
-		<property name="НаименованиеВалюты" type="xs:string" default="&quot;RUR&quot;"/>
+		<property name="КодБренда" type="xs:string" default="00000"/>
+		<property name="НаименованиеВалюты" type="xs:string" default="RUR"/>
 		<property name="ВалютнаяСумма" type="xs:float" nillable="true" default="0"/>
 		<property name="КодВидаКомандировочных" type="xs:string" default=""/>
 		<property name="КодКатегорииОперации" type="xs:string" nillable="true" default=""/>
