@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Regular expressions</value>
   </synonym>
-  <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>
+  <serverCall>true</serverCall>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
 </mdclass:CommonModule>

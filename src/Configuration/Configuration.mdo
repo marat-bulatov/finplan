@@ -2298,7 +2298,6 @@
   <documents>Document.СправкиСПАРКРиски</documents>
   <documents>Document.Выписка</documents>
   <documents>Document.ФинансовыйПлан</documents>
-  <documents>Document.ФинансовыйПланРегистр</documents>
   <documents>Document.СообщениеSMS</documents>
   <documents>Document.ТелефонныйЗвонок</documents>
   <documents>Document.ЭлектронноеПисьмоВходящее</documents>

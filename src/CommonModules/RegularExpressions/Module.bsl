@@ -1,4 +1,5 @@
 
+#Область СлужебныеПроцедурыИФункции
 Функция ПолучитьОбъектRegExp() Экспорт
 	
 	RegExp = Новый COMОбъект("VBScript.RegExp");
@@ -12,7 +13,7 @@
 
 Функция ТестRegExp(ТекстДляТестирования, ВыражениеRegExp) Экспорт
 	
-	RegExp = RegularExpressions.ПолучитьОбъектRegExp();
+	RegExp = ПолучитьОбъектRegExp();
 	RegExp.Pattern = ВыражениеRegExp;
 	
 	Результат = RegExp.Test(ТекстДляТестирования);
@@ -23,7 +24,7 @@
 
 Функция ReplaceRegExp(ИсходныйТекст, ВыражениеRegExp, ТекстЗамены = "") Экспорт
 	
-	RegExp = RegularExpressions.ПолучитьОбъектRegExp();
+	RegExp = ПолучитьОбъектRegExp();
 	RegExp.Pattern = ВыражениеRegExp;
 	
 	Результат = RegExp.Replace(ИсходныйТекст, ТекстЗамены);
@@ -34,7 +35,7 @@
 
 Функция ПодстрокаRegExp(Текст, ВыражениеRegExp) Экспорт
 	
-	RegExp = RegularExpressions.ПолучитьОбъектRegExp();
+	RegExp = ПолучитьОбъектRegExp();
 	RegExp.Pattern = ВыражениеRegExp;
 	
 	Matches = RegExp.Execute(Текст);
@@ -77,3 +78,4 @@
     КонецПопытки;
 	
 КонецФункции
+#КонецОбласти

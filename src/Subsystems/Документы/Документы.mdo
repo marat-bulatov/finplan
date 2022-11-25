@@ -18,6 +18,5 @@
   <content>Constant.РаботаСОчередьюSQLРазрешена</content>
   <content>Document.Выписка</content>
   <content>Document.ФинансовыйПлан</content>
-  <content>Document.ФинансовыйПланРегистр</content>
   <content>InformationRegister.СостоянияСтрокДокументов</content>
 </mdclass:Subsystem>
